@@ -11,7 +11,7 @@ class Node {
     }
 }
 */
-class Solution {
+class FlatteningaLinkedList {
     public Node flatten(Node root) {
         if (root == null || root.next == null) {
             return root;
